@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+
+    RewriteRule ^favicon\.ico$ /favicon.svg [R=303,L]
+</IfModule>
