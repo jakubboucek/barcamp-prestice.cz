@@ -3,4 +3,5 @@
     RewriteBase /
 
     RewriteRule ^favicon\.ico$ /favicon.svg [R=303,L]
+    RewriteRule ^gdpr$ /static/2025-05-15-zasady-zpracovani-osobnich-udaju.pdf [L]
 </IfModule>
